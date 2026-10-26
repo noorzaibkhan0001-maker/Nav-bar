@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(hero2.jpg);
+    padding: 20px;
+}
+
+
+.nav-bar {
+    width: 100%;
+    min-height: 95px;
+    background-color: #ffffff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.logo img{
+    width: 160px;
+    height: auto;
+    display: block;   
+}
+
+
+
+.links ul{
+    display: flex;
+    align-items: center;
+    list-style: none; 
+    gap: 25px;      
+}
+
+
+.links ul li a {
+    display: block;
+    padding: 12px 4px;
+    text-decoration: none;
+    color: #171717;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.links ul li a:active {
+    color: #ef4055;
+    border-bottom: 2px solid #ef4055;
+}
+
+.links li :hover{
+    color: red; 
+    border-bottom: 2px solid #ef4055;
+          
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.search-box{
+    display: flex;
+    width: 220px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    background-color: #F4F4F6;
+    padding: 10px 18px;
+    border: 1px solid #e8e8e8;
+    border-radius: 15px;
+}
+
+.search-box span {
+    font-size: 25px;
+    color: #171717;
+}
+
+.search-box input{
+    border: none;
+    background-color: #F4F4F6;
+    outline: none;
+    align-items: center;
+}
+
+.heart-icon{
+    font-size: 45px;
+}
+
+.icon-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111111;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #ef4055;
+}
+
+.cart-count {
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ef4055;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cart-icon :hover{
+    color: #ef4055;
+}
+
+
+.login-btn{
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: #ef4055;
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    background-color: #d92f45;
+    transform: translateY(-2px);
+}
+
+
+
+
